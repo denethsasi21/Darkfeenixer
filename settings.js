@@ -6,11 +6,11 @@ Creator : @darkfeenixer , @mr-kasun-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94722807735",
-  SUDO_NUMBERS : "94722807735,94772801923",
+  OWNER_NUMBER: "94786254229",
+  SUDO_NUMBERS : "94786254229",
   OWNER_NAME: "『 𝙼𝚁 𝙺𝙰𝚂𝚄𝙽 』",
   BOT_NAME : "F E E N I X",     
-  ZUSYCO_FILE : "FEENIX-QR",
+  ZUSYCO_FILE : "creds.json",
   LOGOS: {
     ALIVE: 'https://i.ibb.co/YTWznr9/ZUSYCO-ALIVE-IMAGE-LOWQ.jpg',
     WELCOME: 'https://i.ibb.co/PzhpBV7/WELCOME-IMAGE-LOWQ.jpg',
