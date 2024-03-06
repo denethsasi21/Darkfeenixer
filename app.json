@@ -1,1 +1,30 @@
-
+{
+    "name": "FEENIX-MD",
+    "description": "This is an FEENIX-MD whatsapp bot created by mr kasun.",
+    "repository": "https://github.com/DarkFeenixer/FEENIX-MD",
+    "logo": "https://telegra.ph/file/1c14ab0e280632ac32b1a.jpg",
+    "keywords": [
+        "nodejs",
+        "Bot",
+        "WhatsApp FEENIX-MD Bot"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "13"
+            }
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "standard-1x"
+        }
+    }
+}
